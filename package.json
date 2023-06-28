@@ -1,0 +1,30 @@
+{
+  "name": "@aaashur/eslint-config",
+  "version": "1.0.0-beta.1",
+  "description": "Shareable ESLint configuration",
+  "main": "index.js",
+  "files": [
+  	"index.js"
+  ],
+  "scripts": {
+    "lint": "npx eslint ./**/*.js"
+  },
+  "author": {
+  	"name" : "Ashur Cabrera",
+  	"url" : "https://ashur.cab/rera/"
+  },
+  "license": "ISC",
+  "peerDependencies": {
+  	"eslint": ">= 8",
+  	"eslint-plugin-sort-requires": ">= 2"
+  },
+  "eslintConfig": {
+    "extends": "./index.js",
+    "env": {
+      "node": true
+    },
+    "rules": {
+    	"sort-requires/sort-requires": "off"
+    }
+  }
+}
