@@ -4,19 +4,19 @@
   "description": "Shareable ESLint configuration",
   "main": "index.js",
   "files": [
-  	"index.js"
+    "index.js"
   ],
   "scripts": {
     "lint": "npx eslint ./**/*.js"
   },
   "author": {
-  	"name" : "Ashur Cabrera",
-  	"url" : "https://ashur.cab/rera/"
+    "name": "Ashur Cabrera",
+    "url": "https://ashur.cab/rera/"
   },
   "license": "ISC",
   "peerDependencies": {
-  	"eslint": ">= 8",
-  	"eslint-plugin-sort-requires": ">= 2"
+    "eslint": ">= 8",
+    "eslint-plugin-sort-requires": ">= 2"
   },
   "eslintConfig": {
     "extends": "./index.js",
@@ -24,7 +24,7 @@
       "node": true
     },
     "rules": {
-    	"sort-requires/sort-requires": "off"
+      "sort-requires/sort-requires": "off"
     }
   }
 }
