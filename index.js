@@ -24,6 +24,7 @@ module.exports = {
 		"no-console": "warn",
 		"no-invalid-this": "error",
 		"no-negated-condition": "warn",
+		"no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
 		"object-curly-spacing": ["error", "always"],
 		"quote-props": ["error", "as-needed"],
 		quotes: ["error", "double"],
